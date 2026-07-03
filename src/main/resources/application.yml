@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: ${MASTER_DB_URL}
+    username: ${MASTER_DB_USER}
+    password: ${MASTER_DB_PASS}
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: false
+
+server:
+  port: ${SERVER_PORT}
